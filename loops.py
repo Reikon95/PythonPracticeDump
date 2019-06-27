@@ -6,3 +6,20 @@ for num in ages:
   print(num)
   
 #this prints all ages in the list except for those under 21. The continue line means that it will skip over any value less than 21
+
+#sum all numbers in range
+
+def larger_sum(lst1, lst2):
+  sum1 = 0
+  for num in lst1:
+    sum1 = sum1+num
+  sum2 = 0
+  for num in lst2:
+    sum2 = sum2+num
+  if sum1 >= sum2:
+    return lst1
+  else:
+    return lst2
+print(larger_sum([1, 9, 5], [2, 3, 7]))
+
+#returns list with higher sum
