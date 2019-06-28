@@ -23,3 +23,18 @@ def larger_sum(lst1, lst2):
 print(larger_sum([1, 9, 5], [2, 3, 7]))
 
 #returns list with higher sum
+
+#finding largest number in range
+def max_num(nums):
+  big = nums[0]
+  for i in nums:
+    
+    print(big)
+    if (i > big):
+      big = i
+    print(big)
+  return big
+    
+  
+
+print(max_num([50, -10, 0, 75, 20]))
