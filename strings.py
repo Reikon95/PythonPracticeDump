@@ -22,3 +22,12 @@ def password_generator(first_name, last_name):
 temp_password = password_generator(first_name, last_name)
 
 print(temp_password)
+
+#Making edits to immutable strings
+
+first_name = "Bob"
+last_name = "Daily"
+
+
+fixed_first_name = "R" + first_name[1:]
+
