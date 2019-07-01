@@ -10,3 +10,15 @@ print(message + '\n' + lowercased + '\n' + sentencecased)
 #uSiNg aPPrOpRiAtE cApiTaLISAtiOn iS iMpOrTaNt fOr yOuR rEaDerS' SANity
 #using appropriate capitalisation is important for your readers' sanity
 #Using appropriate capitalisation is important for your readers' sanity
+
+#Password generator
+
+first_name = "Reiko"
+last_name = "Matsuki"
+
+def password_generator(first_name, last_name):
+  return (first_name[len(first_name) - 3: ]) + (last_name[len(last_name) - 3: ])
+
+temp_password = password_generator(first_name, last_name)
+
+print(temp_password)
