@@ -38,3 +38,19 @@ def max_num(nums):
   
 
 print(max_num([50, -10, 0, 75, 20]))
+
+
+#nested loop to return values that are the same in two lists
+def same_values(lst1, lst2):
+  newlst = []
+  for val in range(len(lst1)):
+    print(val)
+    if (lst1[val] == lst2[val]):
+      print('yes')
+      newlst.append(val)
+      print(newlst)
+  return newlst  
+    
+      
+
+print(same_values([5, 1, -10, 3, 3], [5, 10, -10, 3, 5]))
