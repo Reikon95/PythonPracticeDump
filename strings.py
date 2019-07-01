@@ -31,3 +31,16 @@ last_name = "Daily"
 
 fixed_first_name = "R" + first_name[1:]
 
+
+#iterating through a string using a loop
+
+def get_length(stringer):
+  index = 0
+  for letter in stringer:
+    index += 1
+    print(index)
+  return index  
+    
+
+get_length('test')
+
