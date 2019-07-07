@@ -9,3 +9,7 @@
 def poem_title_card(poet, title):
   return "The poem \"{}\" is written by {}.".format(title, poet)
 print(poem_title_card("Walt Whitman", "I Hear America Singing"))
+
+def count_char_x(word, x):
+  return word.count(x)
+#returns the number of occurances of x in word
