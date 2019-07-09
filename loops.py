@@ -1,3 +1,9 @@
+#general for loop structure:
+for <temporary variable> in <list variable>:
+    <action>
+
+
+
 ages = [12, 38, 34, 26, 21, 19, 67, 41, 17]
 
 for num in ages:
