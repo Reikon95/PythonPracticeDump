@@ -81,6 +81,18 @@ for location in sales_data:
 
 
 
+single_digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+squares = []  
+cubes = []
+
+for val in single_digits:
+  print(val)
+  squares.append((val ** 2))
+  cubes.append((val ** 3))
+
+print(squares)
+print(cubes)
+
 
 
 
