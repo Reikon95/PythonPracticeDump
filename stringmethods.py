@@ -13,3 +13,16 @@ print(poem_title_card("Walt Whitman", "I Hear America Singing"))
 def count_char_x(word, x):
   return word.count(x)
 #returns the number of occurances of x in word
+
+
+#EXAMPLE - my solution to reverse a string
+
+def reverse_string(word):
+  solution = [] #empty list for solution
+  strlst = list(word) #convert word to list
+  jj = len(strlst) #new variable which is length of the word basically
+  while len(solution) < jj: #conditional loop
+    letter = strlst.pop() #var is last elem in list
+    solution.append(letter) #moves to the solution list
+  result = ''.join(solution) #new variable which is a string, the joined solution list
+  return result
