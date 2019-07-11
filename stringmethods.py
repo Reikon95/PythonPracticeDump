@@ -26,3 +26,12 @@ def reverse_string(word):
     solution.append(letter) #moves to the solution list
   result = ''.join(solution) #new variable which is a string, the joined solution list
   return result
+
+
+def make_spoonerism(word1, word2):
+  a = word2[0] + word1[1 :]
+  b = word1[0] + word2[1 :]
+  print(a + b)
+  str = a + ' ' + b
+  return str
+  
