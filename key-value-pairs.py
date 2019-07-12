@@ -64,3 +64,15 @@ try:
 except:
   print('Unknown Caffeine Level')
   
+  
+  
+'''
+Default values
+'''
+  
+user_ids = {"teraCoder": 100019, "pythonGuy": 182921, "samTheJavaMaam": 123112, "lyleLoop": 102931, "keysmithKeith": 129384}
+
+tc_id = user_ids.get("teraCoder", 10000)
+
+stack_id = user_ids.get("superStackSmash", 100000)
+print(stack_id)
