@@ -49,3 +49,18 @@ print(zodiac_elements["earth"])
 
 print(zodiac_elements["fire"])
 
+
+'''
+
+Try/Except 
+Like if else except try is if it works and except is if it doesnt
+'''
+
+caffeine_level = {"espresso": 64, "chai": 40, "decaf": 0, "drip": 120}
+caffeine_level['matcha'] = 30
+
+try:
+  print(caffeine_level['matcha'])
+except:
+  print('Unknown Caffeine Level')
+  
