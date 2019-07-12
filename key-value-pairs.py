@@ -125,3 +125,13 @@ for val in num_exercises.values():
   
 print(total_exercises)
 
+''' 
+Get all values
+
+'''
+
+pct_women_in_occupation = {"CEO": 28, "Engineering Manager": 9, "Pharmacist": 58, "Physician": 40, "Lawyer": 37, "Aerospace Engineer": 9}
+
+for job, value in pct_women_in_occupation.items():
+  print('Women make up ' + str(value) + ' percent of ' + job + 's.')
+
