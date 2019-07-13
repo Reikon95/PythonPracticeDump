@@ -135,3 +135,15 @@ pct_women_in_occupation = {"CEO": 28, "Engineering Manager": 9, "Pharmacist": 58
 for job, value in pct_women_in_occupation.items():
   print('Women make up ' + str(value) + ' percent of ' + job + 's.')
 
+  '''
+  
+  Iterating through the values and returning them
+  
+  '''
+  
+  def sum_values(my_dictionary):
+  total = 0
+  for val in my_dictionary.values():
+    print(val)
+    total += val
+  return total
