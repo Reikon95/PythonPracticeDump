@@ -38,3 +38,14 @@ It adds to it rather than overwrites. Note the a in the place of w
 
 with open('cool_dogs.txt', 'a') as cool_dogs_file:
   cool_dogs_file.write('Air Bud')
+
+'''
+Open CSV files is easy as they are basically just plain text
+
+See below 
+
+'''
+
+with open('logger.csv') as log_csv_file:
+  stre = log_csv_file.read()
+  print(stre)
