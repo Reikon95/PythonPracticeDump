@@ -29,3 +29,12 @@ Then we just add BrokeNCYDE because they sucked.
 
 with open('bad_bands.txt', 'w') as bad_bands_doc:
   bad_bands_doc.write('BrokeNCYDE')
+  
+''' 
+
+Appending a document means you aren't totally rewriting it like the above
+It adds to it rather than overwrites. Note the a in the place of w
+'''
+
+with open('cool_dogs.txt', 'a') as cool_dogs_file:
+  cool_dogs_file.write('Air Bud')
