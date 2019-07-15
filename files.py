@@ -49,3 +49,18 @@ See below
 with open('logger.csv') as log_csv_file:
   stre = log_csv_file.read()
   print(stre)
+
+'''
+
+That being said, not always best to open as plain text
+You can import a CSV module which basically makes it easier to handle.
+You can save it as a dictionary which again makes it easier
+Line is the key, so we are asking for it to print the value.
+
+'''
+import csv
+
+with open('cool_csv.csv') as cool_csv_file:
+  cool_csv_dict = csv.DictReader(cool_csv_file)
+  for line in cool_csv_dict:
+    print(line['Cool Fact'])
