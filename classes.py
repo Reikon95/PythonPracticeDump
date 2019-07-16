@@ -1,0 +1,6 @@
+'''
+Classes
+'''
+
+class ExampleClass:
+  pass
