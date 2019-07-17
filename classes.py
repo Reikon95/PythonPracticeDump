@@ -87,3 +87,16 @@ Dir gives out all the attributes of an object
 '''
 print(dir(5)) # Dir gives you all the attributes 
 
+
+'''
+Inheritance
+Essentialy a copy with a difference.
+Child is below, parent is above
+'''
+class Bin:
+  pass
+
+class RecyclingBin(Bin):
+  pass
+
+
