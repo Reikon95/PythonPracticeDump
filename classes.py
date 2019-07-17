@@ -81,3 +81,9 @@ round_room = Circle(11460)
 print(medium_pizza.circumference())
 print(teaching_table.circumference())
 print(round_room.circumference())
+
+'''
+Dir gives out all the attributes of an object
+'''
+print(dir(5)) # Dir gives you all the attributes 
+
