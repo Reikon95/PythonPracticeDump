@@ -121,3 +121,41 @@ data_payload = [
 import json
 with open('data.json', 'w') as data_json:
   json.dump(data_payload, data_json)
+  
+'''
+Finding mean in a dataset
+'''
+with open('response_time.txt') as lines_doc:
+  lines = lines_doc.readlines()
+  a = []
+  b = []
+  i = 0
+  for time in lines:
+    if i % 2 == 0:
+      a.append(time)
+    else:
+      b.append(time)
+    i += 1  
+  
+  # print(a)
+  # print(b)
+
+  countera = 0
+  totala = 0
+  for time in a:
+    countera += float(time)
+    totala += 1
+  print(countera)
+  print(totala)
+  mean_a = (countera/totala)
+  print(mean_a)
+
+  counterb = 0
+  totalb = 0
+  for time in b:
+    counterb += float(time)
+    totalb += 1
+  print(counterb)
+  print(totalb)
+  mean_b = (counterb/totalb)
+  print(mean_b)
