@@ -33,3 +33,10 @@ final_grade = (total_grade / 3)
 print(final_grade)
 
 
+  '''
+  Coin toss example - 2 dimensional array
+  '''
+coin_toss = np.array([1, 0, 0, 1, 0])
+
+coin_toss_again = np.array([[1, 0, 0, 1, 0], [0, 0, 1, 1, 1]])
+
