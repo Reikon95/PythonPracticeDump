@@ -159,3 +159,16 @@ with open('response_time.txt') as lines_doc:
   print(totalb)
   mean_b = (counterb/totalb)
   print(mean_b)
+
+    '''
+    Word count
+    '''
+f = open("file.txt", "r")
+num_words = 0
+
+for line in f.readlines():
+    for word in line.strip().split():
+        if word == 'THEWORD':
+            num_words += 1 
+
+print(num_words)
