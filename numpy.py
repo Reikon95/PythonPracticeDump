@@ -40,3 +40,9 @@ coin_toss = np.array([1, 0, 0, 1, 0])
 
 coin_toss_again = np.array([[1, 0, 0, 1, 0], [0, 0, 1, 1, 1]])
 
+  '''
+  Select data from array
+  '''
+jeremy_test_2 = test_2[3]
+
+manual_adwoa_test_1 = test_1[1:3]
